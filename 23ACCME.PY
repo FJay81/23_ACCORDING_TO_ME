@@ -41,19 +41,19 @@ class Stereotypes:
         )
         print(
             f"""According to the test I would say you are: 
-                {(self.American / total) * 100}% American
-                {(self.Irish / total) * 100}% Irish
-                {(self.German / total) * 100}% German
-                {(self.British / total) * 100}% British
-                {(self.Scandanavian / total) * 100}% Scandanavian
-                {(self.Indian / total) * 100}% Indian
-                {(self.African / total) * 100}% African
-                {(self.Chinese / total) * 100}% Chinese
-                {(self.Japanese / total) * 100}% Japanese
-                {(self.Arab / total) * 100}% Arab
-                {(self.Italian / total) * 100}% Italian
-                {(self.French / total) * 100}% French
-                {(self.Russian / total) * 100}% Russian                
+                {'%.2f'%(100 * self.American / total)}% American
+                {'%.2f'%(100 * self.Irish / total)}% Irish
+                {'%.2f'%(100 * self.German / total)}% German
+                {'%.2f'%(100 * self.British / total)}% British
+                {'%.2f'%(100 * self.Scandanavian / total)}% Scandanavian
+                {'%.2f'%(100 * self.Indian / total)}% Indian
+                {'%.2f'%(100 * self.African / total)}% African
+                {'%.2f'%(100 * self.Chinese / total)}% Chinese
+                {'%.2f'%(100 * self.Japanese / total)}% Japanese
+                {'%.2f'%(100 * self.Arab / total)}% Arab
+                {'%.2f'%(100 * self.Italian / total)}% Italian
+                {'%.2f'%(100 * self.French / total)}% French
+                {'%.2f'%(100 * self.Russian / total)}% Russian                
                 """
         )
 
